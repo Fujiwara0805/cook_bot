@@ -30,9 +30,9 @@ def communicate():
 
 
 # ユーザーインターフェイスの構築
-st.title(" 「プログラミング講師」ボット")
-st.image("04_programming.png")
-st.write("プログラミングに関して、何でも聞いてください。")
+st.title(" 「レシピ」を考えるチャットボット")
+st.image("01_recipe.png")
+st.write("どんな食事を作りたいですか？")
 
 user_input = st.text_input("メッセージを入力してください。", key="user_input", on_change=communicate)
 
