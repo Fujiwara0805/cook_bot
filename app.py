@@ -27,7 +27,7 @@ def communicate():
 
 
 st.title(" 「レシピ」を考えるチャットボット")
-st.image("01_recipe.png")
+st.image("cooking_robot.png")
 st.write("どんな食事を作りたいですか？")
 
 user_input = st.text_input("メッセージを入力してください。", key="user_input", on_change=communicate)
